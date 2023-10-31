@@ -37,6 +37,9 @@ function getPosition(position) {
 function getError(errorMessage) {
     notificationElement.innerHTML = `<p>Une erreur s'est produite : ${errorMessage}</p>`;
     notificationElement.style.display = "block";
+    setTimeout(() =>{
+        notificationElement.style.display = "none";
+    }, 5000)
 };
 
 //API call function
