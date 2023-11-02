@@ -3,11 +3,6 @@
 A simple weather app displaying the weather at your location made in Plain JS.
 
 
-## Demo
-
-https://kevin-ha-kha.github.io/weather-app/
-
-
 ## API Reference
 
 ### Get item
